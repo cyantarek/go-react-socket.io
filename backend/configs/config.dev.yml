@@ -1,0 +1,25 @@
+server:
+  grpc:
+    host: "0.0.0.0"
+    port: "5200"
+  rest:
+    host: "0.0.0.0"
+    port: "5300"
+db:
+  mongo:
+    host: "localhost"
+    port: "27017"
+    user: "dev"
+    password: "dev"
+    db_name: "hello_db"
+smtp:
+  host: "smtp.gmail.com"
+  port: "587"
+  username: "cyantarek.cg@gmail.com"
+  password: "zxcv5555"
+security:
+  tls:
+    key_file: "keys/server.key"
+    cert_file: "keys/server.crt"
+worker:
+  count: 5
