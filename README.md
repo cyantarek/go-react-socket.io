@@ -22,7 +22,7 @@ I have written a custom hook in order to handle the life cycle of socket IO chat
 3. Run `go run cmd/chat/main.go`
 
 ##### Frontend
-1. Make sure you have backend running. Then Go to `frontend` folder
+1. Make sure you have backend running. Then Go to `client` folder
 2. Also make sure you have latest version of Node and npm installed
 3. Run `npm install` to install dependencies
 4. Then run `npm start`
